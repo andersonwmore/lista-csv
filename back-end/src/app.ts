@@ -5,7 +5,7 @@ const cors = require('cors')
 var db = require('./database')
 
 app.use(cors({
-	origin: 'https://test.tecnonex.com.br'
+	origin: 'https://somentehostsautorizadosaqui'
 }))
 
 app.use(bodyParser.urlencoded({extended:true}));
