@@ -16,6 +16,7 @@ process.on('uncaughtException', function(err) {
 	console.log(err)
 })
 
+
 app.post("/addArquivo", (req: Request, res: Response) => {
 	const inputArquivo = {
 		'nome': req.body.arquivo
